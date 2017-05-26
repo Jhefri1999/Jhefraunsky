@@ -1,35 +1,13 @@
 {
-    "name": "BrowserActionExtension",
-    "version": "3.2.1",
-    "manifest_version": 2,
-    "browser_action": {
-        "default_title": "That's the tool tip",
-        "default_popup": "popup.html"
-    }
-}
-"background": [
-    "scripts": ["background.js"],
-    "persistent": false/true
-]
-"content_scripts": [
-    {
-        "matches": ["http://*/*", "https://*/*"],
-        "js": ["content.js"]
-    }
-]
-"browser_action": {
-    "default_icon": {
-        "19": "icons/19x19.png",
-        "38": "icons/38x38.png"
-    },
-    "default_title": "That's the tool tip",
-    "default_popup": "popup.html"
-}
-"page_action": {
-    "default_icon": {
-        "19": "images/icon19.png",
-        "38": "images/icon38.png"
-    },
-    "default_title": "Google Mail",
-    "default_popup": "popup.html"
+  "manifest_version": 2,
+  "name": "Test Extension",
+  "description": "The first extension for my test",
+  "version": "1.0",
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "tabs"
+   ]
 }
