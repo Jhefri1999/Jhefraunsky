@@ -1,0 +1,18 @@
+body {
+  background: url('https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwijq__eyJrUAhWmhVQKHXqQAycQjRwIBw&url=http%3A%2F%2Fgiphy.com%2Fgifs%2Fanimated-patrick-Z1cEBqh95lo7C&psig=AFQjCNHOqqzMHp53ZefKpcDVAP7PybfrtA&ust=1496334445362937') !important;
+}
+ 
+#masthead,
+#primary {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  background-color: #fff;
+  padding: 20px !important;
+}
+#masthead {
+  background: none;
+}
+#masthead img, #primary img {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
