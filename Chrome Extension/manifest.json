@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Test Extension",
-  "description": "The first extension for my test",
+  "description": "My first Chrome extension",
   "version": "1.0",
   "browser_action": {
    "default_icon": "icon.png",
@@ -10,4 +10,4 @@
   "permissions": [
    "tabs"
    ]
-}
+}   
